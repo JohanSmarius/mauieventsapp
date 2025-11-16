@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EventsAppp</name>
+    </assembly>
+    <members>
+        <member name="T:EventsAppp.ViewModels.EventDetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventDetailViewModel.EventItem">
+            <inheritdoc cref="F:EventsAppp.ViewModels.EventDetailViewModel.eventItem"/>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventDetailViewModel.IsLoading">
+            <inheritdoc cref="F:EventsAppp.ViewModels.EventDetailViewModel.isLoading"/>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventDetailViewModel.EventId">
+            <inheritdoc cref="F:EventsAppp.ViewModels.EventDetailViewModel.eventId"/>
+        </member>
+        <member name="M:EventsAppp.ViewModels.EventDetailViewModel.OnEventIdChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:EventsAppp.ViewModels.EventDetailViewModel.EventId"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:EventsAppp.ViewModels.EventDetailViewModel.EventId"/> is changed.</remarks>
+        </member>
+        <member name="F:EventsAppp.ViewModels.EventDetailViewModel.loadEventCommand">
+            <summary>The backing field for <see cref="P:EventsAppp.ViewModels.EventDetailViewModel.LoadEventCommand"/>.</summary>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventDetailViewModel.LoadEventCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:EventsAppp.ViewModels.EventDetailViewModel.LoadEventAsync"/>.</summary>
+        </member>
+        <member name="F:EventsAppp.ViewModels.EventDetailViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:EventsAppp.ViewModels.EventDetailViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventDetailViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:EventsAppp.ViewModels.EventDetailViewModel.GoBackAsync"/>.</summary>
+        </member>
+        <member name="T:EventsAppp.ViewModels.EventsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventsViewModel.IsLoading">
+            <inheritdoc cref="F:EventsAppp.ViewModels.EventsViewModel.isLoading"/>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventsViewModel.LoadingText">
+            <inheritdoc cref="F:EventsAppp.ViewModels.EventsViewModel.loadingText"/>
+        </member>
+        <member name="F:EventsAppp.ViewModels.EventsViewModel.loadEventsCommand">
+            <summary>The backing field for <see cref="P:EventsAppp.ViewModels.EventsViewModel.LoadEventsCommand"/>.</summary>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventsViewModel.LoadEventsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:EventsAppp.ViewModels.EventsViewModel.LoadEventsAsync"/>.</summary>
+        </member>
+        <member name="F:EventsAppp.ViewModels.EventsViewModel.goToEventDetailCommand">
+            <summary>The backing field for <see cref="P:EventsAppp.ViewModels.EventsViewModel.GoToEventDetailCommand"/>.</summary>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventsViewModel.GoToEventDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:EventsAppp.ViewModels.EventsViewModel.GoToEventDetailAsync(EventsAppp.Models.Event)"/>.</summary>
+        </member>
+        <member name="F:EventsAppp.ViewModels.EventsViewModel.refreshCommand">
+            <summary>The backing field for <see cref="P:EventsAppp.ViewModels.EventsViewModel.RefreshCommand"/>.</summary>
+        </member>
+        <member name="P:EventsAppp.ViewModels.EventsViewModel.RefreshCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:EventsAppp.ViewModels.EventsViewModel.RefreshAsync"/>.</summary>
+        </member>
+        <member name="T:EventsAppp.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EventItem">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EventItem" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EventId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EventId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LoadingText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LoadingText" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EventItem">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EventItem" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EventId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EventId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LoadingText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LoadingText" generated properties.</summary>
+        </member>
+    </members>
+</doc>

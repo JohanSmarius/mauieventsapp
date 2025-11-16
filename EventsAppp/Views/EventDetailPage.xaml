@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:EventsAppp.ViewModels"
+             x:Class="EventsAppp.Views.EventDetailPage"
+             x:DataType="viewmodels:EventDetailViewModel"
+             Title="Event Details">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+            
+            <!-- Loading indicator -->
+            <StackLayout IsVisible="{Binding IsLoading}"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center"
+                         Spacing="10">
+                <ActivityIndicator IsRunning="{Binding IsLoading}"
+                                  Color="{StaticResource Primary}" />
+                <Label Text="Loading event details..."
+                       HorizontalOptions="Center"
+                       TextColor="{AppThemeBinding Light=Black, Dark=White}" />
+            </StackLayout>
+
+            <!-- Event details -->
+            <StackLayout IsVisible="{Binding EventItem, Converter={StaticResource IsNotNullConverter}}"
+                         Spacing="15">
+                
+                <!-- Event name -->
+                <Border StrokeShape="RoundRectangle 8"
+                        Stroke="{AppThemeBinding Light=#E0E0E0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=White, Dark=#2D2D30}"
+                        Padding="16">
+                    <Label Text="{Binding EventItem.Name}"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="{AppThemeBinding Light=Black, Dark=White}" />
+                </Border>
+
+                <!-- Date and time -->
+                <Border StrokeShape="RoundRectangle 8"
+                        Stroke="{AppThemeBinding Light=#E0E0E0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#F8F9FA, Dark=#1E1E1E}"
+                        Padding="16">
+                    <StackLayout Spacing="8">
+                        <Label Text="📅 When"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="{AppThemeBinding Light=Black, Dark=White}" />
+                        <Label Text="{Binding EventItem.DateRange}"
+                               FontSize="14"
+                               TextColor="{AppThemeBinding Light=#666666, Dark=#CCCCCC}" />
+                    </StackLayout>
+                </Border>
+
+                <!-- Description -->
+                <Border StrokeShape="RoundRectangle 8"
+                        Stroke="{AppThemeBinding Light=#E0E0E0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#F8F9FA, Dark=#1E1E1E}"
+                        Padding="16">
+                    <StackLayout Spacing="8">
+                        <Label Text="📝 Description"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="{AppThemeBinding Light=Black, Dark=White}" />
+                        <Label Text="{Binding EventItem.Description}"
+                               FontSize="14"
+                               LineBreakMode="WordWrap"
+                               TextColor="{AppThemeBinding Light=#666666, Dark=#CCCCCC}" />
+                    </StackLayout>
+                </Border>
+
+                <!-- Back button -->
+                <Button Text="← Back to Events"
+                        Command="{Binding GoBackCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White"
+                        Margin="0,20,0,0" />
+            </StackLayout>
+
+            <!-- Error state -->
+            <StackLayout IsVisible="{Binding EventItem, Converter={StaticResource IsNullConverter}}"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center"
+                         Spacing="10">
+                <Label Text="Event not found"
+                       FontSize="18"
+                       HorizontalOptions="Center"
+                       TextColor="{AppThemeBinding Light=Black, Dark=White}" />
+                <Button Text="← Back to Events"
+                        Command="{Binding GoBackCommand}"
+                        HorizontalOptions="Center" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

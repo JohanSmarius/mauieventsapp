@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Volumes/ZR/Projects/mauieventsapp/EventsAppp/bin/Debug/net10.0-ios/iossimulator-arm64/EventsAppp.app/libmono-component-diagnostics_tracing.dylib

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="EventsApi/EventsApi.csproj" />
+  <Project Path="EventsAppp/EventsAppp.csproj" />
+</Solution>
