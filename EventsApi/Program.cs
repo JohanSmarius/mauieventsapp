@@ -1,8 +1,16 @@
+using EventsApi.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+// Add EF Core In-Memory database
+builder.Services.AddDbContext<EventsDbContext>(options =>
+    options.UseInMemoryDatabase("EventsDb"));
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -15,6 +23,13 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+// Ensure database is created and seeded
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<EventsDbContext>();
+    dbContext.Database.EnsureCreated();
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -24,24 +39,16 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowAll");
 app.UseHttpsRedirection();
 
-// Sample events data
-var events = new List<Event>
+app.MapGet("/api/events", async (EventsDbContext db) =>
 {
-    new Event(1, "Tech Conference 2025", "Annual technology conference featuring latest innovations", new DateTime(2025, 3, 15, 9, 0, 0), new DateTime(2025, 3, 17, 18, 0, 0)),
-    new Event(2, "Team Building Workshop", "Interactive workshop to strengthen team collaboration", new DateTime(2025, 2, 20, 14, 0, 0), new DateTime(2025, 2, 20, 17, 0, 0)),
-    new Event(3, "Product Launch", "Exciting launch event for our new product line", new DateTime(2025, 4, 10, 10, 0, 0), new DateTime(2025, 4, 10, 16, 0, 0)),
-    new Event(4, "Training Session", "Professional development training for all staff", new DateTime(2025, 1, 25, 13, 0, 0), new DateTime(2025, 1, 25, 16, 0, 0))
-};
-
-app.MapGet("/api/events", () =>
-{
+    var events = await db.Events.ToListAsync();
     return events.Select(e => new EventDto(e.Id, e.Name, e.Description, e.StartDate, e.EndDate));
 })
 .WithName("GetEvents");
 
-app.MapGet("/api/events/{id}", (int id) =>
+app.MapGet("/api/events/{id}", async (int id, EventsDbContext db) =>
 {
-    var eventItem = events.FirstOrDefault(e => e.Id == id);
+    var eventItem = await db.Events.FindAsync(id);
     if (eventItem == null)
     {
         return Results.NotFound();
@@ -52,5 +59,4 @@ app.MapGet("/api/events/{id}", (int id) =>
 
 app.Run();
 
-record Event(int Id, string Name, string Description, DateTime StartDate, DateTime EndDate);
 record EventDto(int Id, string Name, string Description, DateTime StartDate, DateTime EndDate);
