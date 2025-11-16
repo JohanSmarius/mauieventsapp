@@ -83,25 +83,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/johansmarius/.nuget/packages/": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/ZR/Projects/mauieventsapp/EventsApi/EventsApi.csproj",
+      "projectUniqueName": "/home/runner/work/mauieventsapp/mauieventsapp/EventsApi/EventsApi.csproj",
       "projectName": "EventsApi",
-      "projectPath": "/Volumes/ZR/Projects/mauieventsapp/EventsApi/EventsApi.csproj",
-      "packagesPath": "/Users/johansmarius/.nuget/packages/",
-      "outputPath": "/Volumes/ZR/Projects/mauieventsapp/EventsApi/obj/",
+      "projectPath": "/home/runner/work/mauieventsapp/mauieventsapp/EventsApi/EventsApi.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/mauieventsapp/mauieventsapp/EventsApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/johansmarius/.nuget/NuGet/NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -150,7 +149,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
