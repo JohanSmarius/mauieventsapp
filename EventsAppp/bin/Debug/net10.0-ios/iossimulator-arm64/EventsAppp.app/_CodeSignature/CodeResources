@@ -18,15 +18,19 @@
 		</data>
 		<key>EventsAppp.dll</key>
 		<data>
-		HX7CnYeFcN36A9il56MMid5wi6I=
+		/Fn8B2kCDfnyXfZl684+/Tr7aEg=
 		</data>
 		<key>EventsAppp.pdb</key>
 		<data>
-		qyBWaXMIBuR6PcB3OF1vyYnsqFg=
+		yfzraOJmIIxIqwrYvmozA6dW1dg=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		piafU67cEnZGNZI32F2PIonIWVY=
+		</data>
+		<key>MauiInfo.plist</key>
+		<data>
+		iEtuUGCV6JM3gxS/pO33swhmpp8=
 		</data>
 		<key>MauiSplash.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -108,6 +112,10 @@
 		<data>
 		kMM/hdnZfPgRglvw4lsJkVeF69s=
 		</data>
+		<key>Microsoft.Maui.Controls.HotReload.Forms.dll</key>
+		<data>
+		9LoMTvcyN1kiYhByT2vfxt+SUj4=
+		</data>
 		<key>Microsoft.Maui.Controls.Xaml.dll</key>
 		<data>
 		74W9IQrV+Dh+RVwI41KckPDyV5M=
@@ -136,6 +144,18 @@
 		<data>
 		2RNGQN00r/lKD6P8mkQpILax4ZU=
 		</data>
+		<key>Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll</key>
+		<data>
+		Cbc74J3yiS5zABQOxDq16niMnws=
+		</data>
+		<key>Microsoft.VisualStudio.DesignTools.TapContract.dll</key>
+		<data>
+		Rtw66+P4QAZgITGPF9MPCn0jhyw=
+		</data>
+		<key>Microsoft.VisualStudio.DesignTools.XamlTapContract.dll</key>
+		<data>
+		AaMFsTZonPpGggcPEZcYj6un1c4=
+		</data>
 		<key>Microsoft.Win32.Primitives.dll</key>
 		<data>
 		yD3DV+vzbUdixx7ODx5B5S1k5+U=
@@ -154,7 +174,7 @@
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
-		HlmAtjuZZYt4rOfUtxY3eRZ7cWA=
+		2zR4ks26nRmrWJES2ss5zRbdSTs=
 		</data>
 		<key>OpenSans-Regular.ttf</key>
 		<data>
@@ -1096,14 +1116,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			70HU4sIx/5h7D+fNaEgmx9KyCxo9KHITFaRV1kdKQyk=
+			VJ4mZVmDsTYLM/Y/Cny3QWpn8U+y1Jw71nsnWf6YtqU=
 			</data>
 		</dict>
 		<key>EventsAppp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xd8eJNszZbojUtAKZJ+eelPdWRwjvCHhBKMgchlXxjY=
+			dK4wU3HTK3iQSrbfFdgULuKbBRn8o8MZIj/Qp9wAV1E=
+			</data>
+		</dict>
+		<key>MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
 			</data>
 		</dict>
 		<key>MauiSplash.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -1246,6 +1273,13 @@
 			aq+Sk0P9AkFdbLXZA4FsLxyDGxlL/noVeJh5CT0Pprc=
 			</data>
 		</dict>
+		<key>Microsoft.Maui.Controls.HotReload.Forms.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VVeB2W4DanTiDPGY4wBgK9GQtvqTTxcT99ZQx5gLTtA=
+			</data>
+		</dict>
 		<key>Microsoft.Maui.Controls.Xaml.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1295,6 +1329,27 @@
 			r/XPJDlIlRURRGpmqLegK0Bv5HfRkn7KEMpb9W3pRBI=
 			</data>
 		</dict>
+		<key>Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tkqrdKLsXpmR8Idl0bTuv3lN4EquILhUsflRwo+DQHc=
+			</data>
+		</dict>
+		<key>Microsoft.VisualStudio.DesignTools.TapContract.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gY4UPEIGZ948PsFqIaLYPQAqoEyvMxxA04Gz2zwX5gY=
+			</data>
+		</dict>
+		<key>Microsoft.VisualStudio.DesignTools.XamlTapContract.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wElwgSmk/Wlh7i5gBBNJD7bS6y5kWjVWGBXkfQlywoo=
+			</data>
+		</dict>
 		<key>Microsoft.Win32.Primitives.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1327,7 +1382,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n/NMp5DkQGppkjpBoyoV1mhEK36L/cuHFrOabOQafS0=
+			eW7FvsmnaEr6YUjyFl+rAG3mFygiT4IO+WNFcUVX9Gw=
 			</data>
 		</dict>
 		<key>OpenSans-Regular.ttf</key>
