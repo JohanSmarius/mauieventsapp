@@ -17,7 +17,9 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
-
+		
+		builder.Services.AddTransient<IEventService, EventService>();
+		
 		// Configure HttpClient for API communication
 		builder.Services.AddHttpClient<IEventService, EventService>(client =>
 		{
@@ -25,7 +27,7 @@ public static class MauiProgram
 		});
 
 		// Register services and ViewModels
-		builder.Services.AddSingleton<IEventService, EventService>();
+		
 		builder.Services.AddTransient<EventsViewModel>();
 		builder.Services.AddTransient<EventDetailViewModel>();
 
