@@ -3,7 +3,7 @@ using Google.Protobuf.WellKnownTypes;
 var builder = DistributedApplication.CreateBuilder(args);
 
 var dbServer = builder.AddSqlServer("dbserver")
-    .WithHostPort(5000)
+    .WithHostPort(5001)
     .WithLifetime(ContainerLifetime.Persistent);
 var db = dbServer.AddDatabase("EventsDb");
 
@@ -13,7 +13,8 @@ var migrationService = builder.AddProject("migrationservice", @"../MigrationServ
 
 var eventApi = builder.AddProject("eventsapi", @"../EventsApi/EventsApi.csproj")
     .WithReference(db)
-    .WaitFor(db);
+    .WaitFor(db)
+    .WaitForCompletion(migrationService);
 
 var publicDevTunnel = builder.AddDevTunnel("devtunnel-public")
     .WithAnonymousAccess()
