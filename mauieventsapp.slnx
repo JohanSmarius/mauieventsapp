@@ -4,4 +4,5 @@
   <Project Path="EventsApp.MauiServiceDefaults/EventsApp.MauiServiceDefaults.csproj" />
   <Project Path="EventsApp.WebServiceDefaults/EventsApp.WebServiceDefaults.csproj" />
   <Project Path="EventsAppp/EventsAppp.csproj" />
+  <Project Path="MigrationService/MigrationService.csproj" />
 </Solution>

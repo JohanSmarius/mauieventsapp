@@ -27,11 +27,11 @@ var app = builder.Build();
 app.MapDefaultEndpoints();
 
 // Ensure database is created and seeded
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<EventsDbContext>();
-    dbContext.Database.EnsureCreated();
-}
+// using (var scope = app.Services.CreateScope())
+// {
+//     var dbContext = scope.ServiceProvider.GetRequiredService<EventsDbContext>();
+//     dbContext.Database.EnsureCreated();
+// }
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

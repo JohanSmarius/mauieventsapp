@@ -7,6 +7,10 @@ var dbServer = builder.AddSqlServer("dbserver")
     .WithLifetime(ContainerLifetime.Persistent);
 var db = dbServer.AddDatabase("EventsDb");
 
+var migrationService = builder.AddProject("migrationservice", @"../MigrationService/MigrationService.csproj")
+    .WithReference(db)
+    .WaitFor(db);   
+
 var eventApi = builder.AddProject("eventsapi", @"../EventsApi/EventsApi.csproj")
     .WithReference(db)
     .WaitFor(db);
