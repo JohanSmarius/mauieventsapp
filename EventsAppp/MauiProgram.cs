@@ -22,13 +22,7 @@ public static class MauiProgram
 		builder.Services.AddTransient<IEventService, EventService>();
 
 		builder.AddServiceDefaults();
-		
-		// Configure HttpClient for API communication
-		builder.Services.AddHttpClient<IEventService, EventService>(client =>
-		{
-			client.BaseAddress = new Uri("https+http://eventsapi");
-		});
-
+	
 		// Register services and ViewModels
 		
 		builder.Services.AddTransient<EventsViewModel>();
