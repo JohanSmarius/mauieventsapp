@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="Microsoft.Maui.Essentials" mvid="37135efc4fe2448893b536a179e294bd">
+<api type="debug" assembly-name="Microsoft.Maui.Essentials" mvid="2c73c7da70f247e78bacc0ace7dd3a7f">
   <java-to-managed>
     <entry java-name="crc6468b6408a11370c2f/WebAuthenticatorCallbackActivity" managed-name="Microsoft.Maui.Authentication.WebAuthenticatorCallbackActivity, Microsoft.Maui.Essentials" managed-type-token-id="33554445" />
     <entry java-name="crc6468b6408a11370c2f/WebAuthenticatorIntermediateActivity" managed-name="Microsoft.Maui.Authentication.WebAuthenticatorIntermediateActivity, Microsoft.Maui.Essentials" managed-type-token-id="33554446" />

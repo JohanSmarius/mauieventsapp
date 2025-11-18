@@ -1,4 +1,7 @@
 <Solution>
   <Project Path="EventsApi/EventsApi.csproj" />
+  <Project Path="EventsApp.AppHost/EventsApp.AppHost.csproj" />
+  <Project Path="EventsApp.MauiServiceDefaults/EventsApp.MauiServiceDefaults.csproj" />
+  <Project Path="EventsApp.WebServiceDefaults/EventsApp.WebServiceDefaults.csproj" />
   <Project Path="EventsAppp/EventsAppp.csproj" />
 </Solution>

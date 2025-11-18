@@ -16,13 +16,37 @@
 		<data>
 		W30SJQ9TWL4L/gsCdUVYQ2Jf5EY=
 		</data>
+		<key>EventsApp.MauiServiceDefaults.dll</key>
+		<data>
+		guYoyWMqPvrRXPtgdvWLdDsRL7E=
+		</data>
+		<key>EventsApp.MauiServiceDefaults.pdb</key>
+		<data>
+		TopiOo63WqGXziPvZXaVY+qxgLA=
+		</data>
 		<key>EventsAppp.dll</key>
 		<data>
-		/Fn8B2kCDfnyXfZl684+/Tr7aEg=
+		kZx45gilUKn3SLUwrkAWr24CQwI=
 		</data>
 		<key>EventsAppp.pdb</key>
 		<data>
-		yfzraOJmIIxIqwrYvmozA6dW1dg=
+		z3NaZD6UgPVuI0EIvVjZJAOq368=
+		</data>
+		<key>Google.Protobuf.dll</key>
+		<data>
+		IOhy9W8hUk2MMswSXQzyDPSSL68=
+		</data>
+		<key>Grpc.Core.Api.dll</key>
+		<data>
+		CmzMRZmYz0qNzV2JwzfH3osh658=
+		</data>
+		<key>Grpc.Net.Client.dll</key>
+		<data>
+		wcmbJZxBtudfOFRIw2veo5cz/sI=
+		</data>
+		<key>Grpc.Net.Common.dll</key>
+		<data>
+		9d3bV9fF5MSO6wLGQkvo8zkw60Y=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -48,6 +72,14 @@
 		<data>
 		ak/H8k6Wa9zU9D3LZ/OIGnwU6v8=
 		</data>
+		<key>Microsoft.Extensions.AmbientMetadata.Application.dll</key>
+		<data>
+		qwcmit4lbUW+ac9Gf7OMxgCpxzg=
+		</data>
+		<key>Microsoft.Extensions.Compliance.Abstractions.dll</key>
+		<data>
+		2X9oxIDnG6GdC/QyazrsnbGnmk8=
+		</data>
 		<key>Microsoft.Extensions.Configuration.Abstractions.dll</key>
 		<data>
 		rP2VSgXuRqOx2fiUk7xmJdqD2Mk=
@@ -64,6 +96,10 @@
 		<data>
 		iPHmd0lkx7/fBYGQ18YcDsSh/a4=
 		</data>
+		<key>Microsoft.Extensions.DependencyInjection.AutoActivation.dll</key>
+		<data>
+		nXJ+MbSTMlRgQNj8oEnTA3U6I4A=
+		</data>
 		<key>Microsoft.Extensions.DependencyInjection.dll</key>
 		<data>
 		r8wXjVQWsEFetOpJfNe021irolo=
@@ -72,9 +108,17 @@
 		<data>
 		eqfKbcqHtv60Q1Mqv442h+RDmWc=
 		</data>
+		<key>Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll</key>
+		<data>
+		5GlEBJANW46iJxLTJYk3l+iHKB0=
+		</data>
 		<key>Microsoft.Extensions.Diagnostics.dll</key>
 		<data>
 		CEJ8DkEf8wHBiizM4llyc1lWIsA=
+		</data>
+		<key>Microsoft.Extensions.Features.dll</key>
+		<data>
+		ZHGj3dCG+VP4FO1/GobcC/tFZWw=
 		</data>
 		<key>Microsoft.Extensions.FileProviders.Abstractions.dll</key>
 		<data>
@@ -84,6 +128,14 @@
 		<data>
 		FaOfiXmiYbUxuuZX5eBDi06tCwE=
 		</data>
+		<key>Microsoft.Extensions.Http.Diagnostics.dll</key>
+		<data>
+		vF+kn4oePKedQKAqTHtGE6//CQk=
+		</data>
+		<key>Microsoft.Extensions.Http.Resilience.dll</key>
+		<data>
+		TioJnay+ZGNHRfw7gZhfOHAEeoI=
+		</data>
 		<key>Microsoft.Extensions.Http.dll</key>
 		<data>
 		UFQ1wxZmen5orYvk7ODh3nq1aBQ=
@@ -92,6 +144,10 @@
 		<data>
 		JYlUV55yz2VAuCHi2BGvAyNzA5k=
 		</data>
+		<key>Microsoft.Extensions.Logging.Configuration.dll</key>
+		<data>
+		8PpV51/JBGqNnAddreBnnvVfstE=
+		</data>
 		<key>Microsoft.Extensions.Logging.Debug.dll</key>
 		<data>
 		yhVWCKTlcIi6vvzgDZsp6+qdGn0=
@@ -99,6 +155,10 @@
 		<key>Microsoft.Extensions.Logging.dll</key>
 		<data>
 		sxeVeM3uC5RmrfbPJhiEXfkGUTc=
+		</data>
+		<key>Microsoft.Extensions.ObjectPool.dll</key>
+		<data>
+		9UZ9yZX+Er7LMHmHwcuDoPJZmVE=
 		</data>
 		<key>Microsoft.Extensions.Options.ConfigurationExtensions.dll</key>
 		<data>
@@ -112,9 +172,29 @@
 		<data>
 		kMM/hdnZfPgRglvw4lsJkVeF69s=
 		</data>
-		<key>Microsoft.Maui.Controls.HotReload.Forms.dll</key>
+		<key>Microsoft.Extensions.Resilience.dll</key>
 		<data>
-		9LoMTvcyN1kiYhByT2vfxt+SUj4=
+		eiIOTI4YTTre6ETK3Sc1hir5DHc=
+		</data>
+		<key>Microsoft.Extensions.ServiceDiscovery.Abstractions.dll</key>
+		<data>
+		loX28UpJF0eLFHDJCpQ4rsg6m7c=
+		</data>
+		<key>Microsoft.Extensions.ServiceDiscovery.dll</key>
+		<data>
+		xOHjtNSwpNLqHUlMSsd+9dCf8Ug=
+		</data>
+		<key>Microsoft.Extensions.Telemetry.Abstractions.dll</key>
+		<data>
+		8GIPa8RDIlQpqcWxpL3OPuK0YEM=
+		</data>
+		<key>Microsoft.Extensions.Telemetry.dll</key>
+		<data>
+		BRmnlPmB+MU+pYm5lDQaXGSC0cE=
+		</data>
+		<key>Microsoft.IO.RecyclableMemoryStream.dll</key>
+		<data>
+		LjVMXEMKNEVQGQADpqKa+enfi3U=
 		</data>
 		<key>Microsoft.Maui.Controls.Xaml.dll</key>
 		<data>
@@ -126,15 +206,15 @@
 		</data>
 		<key>Microsoft.Maui.Essentials.dll</key>
 		<data>
-		eCmBT70zrxYegj00oY4KkULYIfc=
+		f+fDa0C1R0rMTCleyAijX9JL+Ds=
 		</data>
 		<key>Microsoft.Maui.Graphics.dll</key>
 		<data>
-		H9sz4EMxXHouXw4VJFLJCPNGQOg=
+		qcz4AdNO880Kpi62DraohpahxsM=
 		</data>
 		<key>Microsoft.Maui.dll</key>
 		<data>
-		zd3rqTzd89F/rZqL+YfzmOA4Lpc=
+		QhBPJW/y1t2wEqtgPA5WIVORPUw=
 		</data>
 		<key>Microsoft.VisualBasic.Core.dll</key>
 		<data>
@@ -143,18 +223,6 @@
 		<key>Microsoft.VisualBasic.dll</key>
 		<data>
 		2RNGQN00r/lKD6P8mkQpILax4ZU=
-		</data>
-		<key>Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll</key>
-		<data>
-		Cbc74J3yiS5zABQOxDq16niMnws=
-		</data>
-		<key>Microsoft.VisualStudio.DesignTools.TapContract.dll</key>
-		<data>
-		Rtw66+P4QAZgITGPF9MPCn0jhyw=
-		</data>
-		<key>Microsoft.VisualStudio.DesignTools.XamlTapContract.dll</key>
-		<data>
-		AaMFsTZonPpGggcPEZcYj6un1c4=
 		</data>
 		<key>Microsoft.Win32.Primitives.dll</key>
 		<data>
@@ -174,7 +242,7 @@
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
-		2zR4ks26nRmrWJES2ss5zRbdSTs=
+		HlmAtjuZZYt4rOfUtxY3eRZ7cWA=
 		</data>
 		<key>OpenSans-Regular.ttf</key>
 		<data>
@@ -184,9 +252,49 @@
 		<data>
 		VaeX2duBrrKjkMtwGvPILtunnn4=
 		</data>
+		<key>OpenTelemetry.Api.ProviderBuilderExtensions.dll</key>
+		<data>
+		Q746/ri1OhRFonJtistniu+fMYI=
+		</data>
+		<key>OpenTelemetry.Api.dll</key>
+		<data>
+		6cPyJv8ff30xhquuAioLI8cb0FM=
+		</data>
+		<key>OpenTelemetry.Exporter.OpenTelemetryProtocol.dll</key>
+		<data>
+		Q/kUo9rCcQqFxikdSnqOXlyFtU4=
+		</data>
+		<key>OpenTelemetry.Extensions.Hosting.dll</key>
+		<data>
+		0LlkuOP0CMt2HH/bZWW2Dvdpujg=
+		</data>
+		<key>OpenTelemetry.Instrumentation.Http.dll</key>
+		<data>
+		7g9k4V/+kB9r8z8co1S21VGux4A=
+		</data>
+		<key>OpenTelemetry.Instrumentation.Runtime.dll</key>
+		<data>
+		61hYwKBAoB3s+QwEmdgkMOhRgZA=
+		</data>
+		<key>OpenTelemetry.dll</key>
+		<data>
+		9Pg09GHhaDyfCpJ7ONi6MzjXi5U=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Polly.Core.dll</key>
+		<data>
+		0qcMOkca7CXhVNaGz6WUgKJ/bDI=
+		</data>
+		<key>Polly.Extensions.dll</key>
+		<data>
+		9jfe5pQRo1h6zCZHW941+deYJ54=
+		</data>
+		<key>Polly.RateLimiting.dll</key>
+		<data>
+		HjutE9MLJ3IIMYnjHy7idC6KQNI=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -760,6 +868,10 @@
 		<data>
 		7fZUGrULu6EMY81scYBXIxVTupw=
 		</data>
+		<key>System.Threading.RateLimiting.dll</key>
+		<data>
+		wk8xDDBHLDo9FgwIvh8AyIe7Hs8=
+		</data>
 		<key>System.Threading.Tasks.Dataflow.dll</key>
 		<data>
 		Hgy5AoHtfeePFMIXKwpybjok7Nc=
@@ -1112,18 +1224,60 @@
 			8ni2zfKv8v+yfwHYPIirGvVA1FtBEpJ082fuvGAawAs=
 			</data>
 		</dict>
+		<key>EventsApp.MauiServiceDefaults.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WySAvzIEXbeg0DsuT0z3TrNkugwL9QG0fipl6IEK3v4=
+			</data>
+		</dict>
+		<key>EventsApp.MauiServiceDefaults.pdb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ur6iu/wq2NidGnYMFd2C1vnq8ltxclZ6wq/RXj8lkGc=
+			</data>
+		</dict>
 		<key>EventsAppp.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VJ4mZVmDsTYLM/Y/Cny3QWpn8U+y1Jw71nsnWf6YtqU=
+			X6VZauOFZeEtFDsBntqDpoXAppZl1uYj4hvFsV9tqIs=
 			</data>
 		</dict>
 		<key>EventsAppp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dK4wU3HTK3iQSrbfFdgULuKbBRn8o8MZIj/Qp9wAV1E=
+			tft6ClZLyM9OlrZTWxPtd257KdpIWhzEusBdJoRa2Co=
+			</data>
+		</dict>
+		<key>Google.Protobuf.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iRcSHnrybkuN5DBlDfhwsFlBYJw1lQoCCBOdqn/5YC8=
+			</data>
+		</dict>
+		<key>Grpc.Core.Api.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E7hbT9qEfe+86SyJCdOQy/TuUpHLPsCgIdHm1roBzK4=
+			</data>
+		</dict>
+		<key>Grpc.Net.Client.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uU8XHmfZ+rhdEBWYic/KVkHDfV5U4/ylPTv785i8BqY=
+			</data>
+		</dict>
+		<key>Grpc.Net.Common.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pEMdRjZDZ5B5269sVmx8Qat1PlNH1LKo1RCiMNWhjgQ=
 			</data>
 		</dict>
 		<key>MauiInfo.plist</key>
@@ -1161,6 +1315,20 @@
 			N9FCO8Sz4bbVQvxbxcsqk0hjO+1se9phVvnzjN34rPY=
 			</data>
 		</dict>
+		<key>Microsoft.Extensions.AmbientMetadata.Application.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5n9sCX9soGoiuN27V+C3TE89lhqr2oLY8OFfkCMhOhk=
+			</data>
+		</dict>
+		<key>Microsoft.Extensions.Compliance.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tEg/702EubHnnyZeSrWOgdDZmqs+2u69WDEA+a95IsY=
+			</data>
+		</dict>
 		<key>Microsoft.Extensions.Configuration.Abstractions.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1189,6 +1357,13 @@
 			fJfERj/g/BHR8i9NFgsr0iiJga3x3icXpv8/uZPd8pQ=
 			</data>
 		</dict>
+		<key>Microsoft.Extensions.DependencyInjection.AutoActivation.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			p+bejEJzyPqQGT1RYuPbc2EbZnYxXCnDEAb98YV9ReI=
+			</data>
+		</dict>
 		<key>Microsoft.Extensions.DependencyInjection.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1203,11 +1378,25 @@
 			lwK4c3AJu19slDz3o7pcCZHH5OtYqelS1Ug1u1lv5WM=
 			</data>
 		</dict>
+		<key>Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0cLLyHUOjnyLjH8GAnCwhAvBiMLnIOOP5+o/JoPznIo=
+			</data>
+		</dict>
 		<key>Microsoft.Extensions.Diagnostics.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			JUrELf/nApMDS0IELKY2XV/fUzFb4zPKc9CoRBuN+b8=
+			</data>
+		</dict>
+		<key>Microsoft.Extensions.Features.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TzihpX7F/KNTvAjThdoLf+JS/KPORQ+LDO2M2Cinucg=
 			</data>
 		</dict>
 		<key>Microsoft.Extensions.FileProviders.Abstractions.dll</key>
@@ -1224,6 +1413,20 @@
 			iaRCil0P7t3lqgVlUJufTGGJ79yviIzRwsP5eeMszXw=
 			</data>
 		</dict>
+		<key>Microsoft.Extensions.Http.Diagnostics.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VUTsUTBKh1xAFmYuauF+LRSnQk7eNl2hmNOZvqNlxhc=
+			</data>
+		</dict>
+		<key>Microsoft.Extensions.Http.Resilience.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nbDG5u7OWe47WemRkok04PukDuMbd/KWCGW+tE4hgzo=
+			</data>
+		</dict>
 		<key>Microsoft.Extensions.Http.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1238,6 +1441,13 @@
 			p2pzW2Pm7zsL9B/5JCPL0WEDuJUugwYUCpvWUDRgNNw=
 			</data>
 		</dict>
+		<key>Microsoft.Extensions.Logging.Configuration.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qzCau5Dvtp6pLb4Ux6ytPt09QIj+vDuFK5GoLwRsMLY=
+			</data>
+		</dict>
 		<key>Microsoft.Extensions.Logging.Debug.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1250,6 +1460,13 @@
 			<key>hash2</key>
 			<data>
 			LANHJavZCv4woUJuZHfLBpO8eRcOHf2zzvcUbilqH3E=
+			</data>
+		</dict>
+		<key>Microsoft.Extensions.ObjectPool.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TE3A6VWV4stfteOzPgHPqj2ikxZTsMFRheyjl4EW5Kg=
 			</data>
 		</dict>
 		<key>Microsoft.Extensions.Options.ConfigurationExtensions.dll</key>
@@ -1273,11 +1490,46 @@
 			aq+Sk0P9AkFdbLXZA4FsLxyDGxlL/noVeJh5CT0Pprc=
 			</data>
 		</dict>
-		<key>Microsoft.Maui.Controls.HotReload.Forms.dll</key>
+		<key>Microsoft.Extensions.Resilience.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VVeB2W4DanTiDPGY4wBgK9GQtvqTTxcT99ZQx5gLTtA=
+			R1VaLeBWBIl8hJ2SEQUGpRZeXAnzidGFRs3XrW2Cmuk=
+			</data>
+		</dict>
+		<key>Microsoft.Extensions.ServiceDiscovery.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a4EboicV+LF0hfqMbd15UZgXBeo7ma9vaJZlx/SaHFw=
+			</data>
+		</dict>
+		<key>Microsoft.Extensions.ServiceDiscovery.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y0Iwi3URYE6FwnlIq82nTeHdQPvwvb8xXtbl5exKIrA=
+			</data>
+		</dict>
+		<key>Microsoft.Extensions.Telemetry.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KZBUBsoYyozOMdYPMtgTTb2t96gj53klQQsxx4yW8tE=
+			</data>
+		</dict>
+		<key>Microsoft.Extensions.Telemetry.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xOUX/xy+xAPIv1fAUTmcNxh14YDMQ8SE0S9of/CsgCQ=
+			</data>
+		</dict>
+		<key>Microsoft.IO.RecyclableMemoryStream.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ryT6NCt/nwhifrGy+UEPL2SXCx4TXF/kg3h4+Ks+y2g=
 			</data>
 		</dict>
 		<key>Microsoft.Maui.Controls.Xaml.dll</key>
@@ -1298,21 +1550,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiM2qhE46b6pq94+faoPV6tUPR3/PqtiMp8EKPwFddE=
+			dIBIwaF+0ae5G4BOCwSurrjf5yAiGMHmaKq8cAOTUr8=
 			</data>
 		</dict>
 		<key>Microsoft.Maui.Graphics.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j3Le2jD6x10l6YrZOEawj7pcYIjdaw1cJEkaIrdncd8=
+			DQLnDbEzg1vVkJZ2YKGio/2YwdguK4srOe96JdFBswk=
 			</data>
 		</dict>
 		<key>Microsoft.Maui.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ySJPCmUPILYijXFaOmzx5PCbZYd6klmTiUsO/RzL7zI=
+			daSxbkkoJdA0UWrcePoT7ycn95wriSzd3R0/tkQCuZs=
 			</data>
 		</dict>
 		<key>Microsoft.VisualBasic.Core.dll</key>
@@ -1327,27 +1579,6 @@
 			<key>hash2</key>
 			<data>
 			r/XPJDlIlRURRGpmqLegK0Bv5HfRkn7KEMpb9W3pRBI=
-			</data>
-		</dict>
-		<key>Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tkqrdKLsXpmR8Idl0bTuv3lN4EquILhUsflRwo+DQHc=
-			</data>
-		</dict>
-		<key>Microsoft.VisualStudio.DesignTools.TapContract.dll</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gY4UPEIGZ948PsFqIaLYPQAqoEyvMxxA04Gz2zwX5gY=
-			</data>
-		</dict>
-		<key>Microsoft.VisualStudio.DesignTools.XamlTapContract.dll</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wElwgSmk/Wlh7i5gBBNJD7bS6y5kWjVWGBXkfQlywoo=
 			</data>
 		</dict>
 		<key>Microsoft.Win32.Primitives.dll</key>
@@ -1382,7 +1613,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eW7FvsmnaEr6YUjyFl+rAG3mFygiT4IO+WNFcUVX9Gw=
+			n/NMp5DkQGppkjpBoyoV1mhEK36L/cuHFrOabOQafS0=
 			</data>
 		</dict>
 		<key>OpenSans-Regular.ttf</key>
@@ -1397,6 +1628,76 @@
 			<key>hash2</key>
 			<data>
 			ku1gPuOcL76x1ETdC6OjcaTs7n8PCoCDAz6FkWW1ato=
+			</data>
+		</dict>
+		<key>OpenTelemetry.Api.ProviderBuilderExtensions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cmsdP5b0hslba497wHONLQekRrwdXg2Ik7jLHKw2gWw=
+			</data>
+		</dict>
+		<key>OpenTelemetry.Api.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NcP6JBqJrZ3h8VrdhQPsuGmE4Ii3POaGe8Cz3QwS6qs=
+			</data>
+		</dict>
+		<key>OpenTelemetry.Exporter.OpenTelemetryProtocol.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hhZN4EIrOl7oQXcljGmC4klQMr/YyaXTVcmhy/bRkyQ=
+			</data>
+		</dict>
+		<key>OpenTelemetry.Extensions.Hosting.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+/syWZybDIw0J+qjYSqRUfr+icI+rja9uzwqy1lBjA4=
+			</data>
+		</dict>
+		<key>OpenTelemetry.Instrumentation.Http.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G4XQ01qkfe/m+lAaXWVp6l32rsUEAC9x2cOmUiRCN+8=
+			</data>
+		</dict>
+		<key>OpenTelemetry.Instrumentation.Runtime.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hyzuTTusuM1gKttosFIrpBH6JRiWeI7xCR16n6f0SlY=
+			</data>
+		</dict>
+		<key>OpenTelemetry.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8Hrns33VU13KeKhUBS77PTLierAmbfFZaA9/QiM92+w=
+			</data>
+		</dict>
+		<key>Polly.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N3YupvzwUVRoWwphZGFwXIN8LwfZjkA33DoOS0wYbqU=
+			</data>
+		</dict>
+		<key>Polly.Extensions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			itrHogzQVrmoYj77bm+bmaguGNPHt/bHiPf8SyDOXxg=
+			</data>
+		</dict>
+		<key>Polly.RateLimiting.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r+MELNQGJDiFfUKIBiOEXzJXU3X0YP0awH9wXqAhGAQ=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -2398,6 +2699,13 @@
 			<key>hash2</key>
 			<data>
 			PCx4Xvy4D1ABCFymJlQ0q0ITxdAjIxE6qzjTXM2XJMw=
+			</data>
+		</dict>
+		<key>System.Threading.RateLimiting.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lbflkK6DOnhCu4wEUwMmYeQRBngkiw5D0mw5sswAcW0=
 			</data>
 		</dict>
 		<key>System.Threading.Tasks.Dataflow.dll</key>

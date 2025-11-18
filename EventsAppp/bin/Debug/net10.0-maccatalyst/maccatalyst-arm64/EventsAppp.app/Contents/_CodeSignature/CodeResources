@@ -12,6 +12,10 @@
 		<data>
 		I/tpFR8eD0ZgSLBpqiPuE0i53H4=
 		</data>
+		<key>Resources/MauiInfo.plist</key>
+		<data>
+		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -54,18 +58,60 @@
 			8ni2zfKv8v+yfwHYPIirGvVA1FtBEpJ082fuvGAawAs=
 			</data>
 		</dict>
+		<key>MonoBundle/EventsApp.MauiServiceDefaults.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WySAvzIEXbeg0DsuT0z3TrNkugwL9QG0fipl6IEK3v4=
+			</data>
+		</dict>
+		<key>MonoBundle/EventsApp.MauiServiceDefaults.pdb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ur6iu/wq2NidGnYMFd2C1vnq8ltxclZ6wq/RXj8lkGc=
+			</data>
+		</dict>
 		<key>MonoBundle/EventsAppp.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kVJVpPmX5Ae0EBuLa+YeFFvgGTLOl49oYrRE9fWqNC0=
+			BdAZe8e5G4+O5Wwoy4nSQbMfvqSoHLPwK/YEq6405OQ=
 			</data>
 		</dict>
 		<key>MonoBundle/EventsAppp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MAbGEtkxIUycIXkM/gGtcezB3nUi+MCK69CA5oLQ/rM=
+			ObfZ9jxzvA2nd8+vylle4BkUvPn7nGwFeb3mu0qhKGI=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Protobuf.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iRcSHnrybkuN5DBlDfhwsFlBYJw1lQoCCBOdqn/5YC8=
+			</data>
+		</dict>
+		<key>MonoBundle/Grpc.Core.Api.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E7hbT9qEfe+86SyJCdOQy/TuUpHLPsCgIdHm1roBzK4=
+			</data>
+		</dict>
+		<key>MonoBundle/Grpc.Net.Client.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uU8XHmfZ+rhdEBWYic/KVkHDfV5U4/ylPTv785i8BqY=
+			</data>
+		</dict>
+		<key>MonoBundle/Grpc.Net.Common.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pEMdRjZDZ5B5269sVmx8Qat1PlNH1LKo1RCiMNWhjgQ=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -73,6 +119,20 @@
 			<key>hash2</key>
 			<data>
 			B5c3YF01O3X9d/Gqioum7gf/w1K8NwqFIyCz2cjyUzI=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.AmbientMetadata.Application.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5n9sCX9soGoiuN27V+C3TE89lhqr2oLY8OFfkCMhOhk=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Compliance.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tEg/702EubHnnyZeSrWOgdDZmqs+2u69WDEA+a95IsY=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Configuration.Abstractions.dll</key>
@@ -103,6 +163,13 @@
 			fJfERj/g/BHR8i9NFgsr0iiJga3x3icXpv8/uZPd8pQ=
 			</data>
 		</dict>
+		<key>MonoBundle/Microsoft.Extensions.DependencyInjection.AutoActivation.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			p+bejEJzyPqQGT1RYuPbc2EbZnYxXCnDEAb98YV9ReI=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.Extensions.DependencyInjection.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -117,11 +184,25 @@
 			lwK4c3AJu19slDz3o7pcCZHH5OtYqelS1Ug1u1lv5WM=
 			</data>
 		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0cLLyHUOjnyLjH8GAnCwhAvBiMLnIOOP5+o/JoPznIo=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Diagnostics.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			JUrELf/nApMDS0IELKY2XV/fUzFb4zPKc9CoRBuN+b8=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Features.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TzihpX7F/KNTvAjThdoLf+JS/KPORQ+LDO2M2Cinucg=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.FileProviders.Abstractions.dll</key>
@@ -138,6 +219,20 @@
 			iaRCil0P7t3lqgVlUJufTGGJ79yviIzRwsP5eeMszXw=
 			</data>
 		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Http.Diagnostics.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VUTsUTBKh1xAFmYuauF+LRSnQk7eNl2hmNOZvqNlxhc=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Http.Resilience.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nbDG5u7OWe47WemRkok04PukDuMbd/KWCGW+tE4hgzo=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Http.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -152,6 +247,13 @@
 			p2pzW2Pm7zsL9B/5JCPL0WEDuJUugwYUCpvWUDRgNNw=
 			</data>
 		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Logging.Configuration.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qzCau5Dvtp6pLb4Ux6ytPt09QIj+vDuFK5GoLwRsMLY=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Logging.Debug.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -164,6 +266,13 @@
 			<key>hash2</key>
 			<data>
 			LANHJavZCv4woUJuZHfLBpO8eRcOHf2zzvcUbilqH3E=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.ObjectPool.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TE3A6VWV4stfteOzPgHPqj2ikxZTsMFRheyjl4EW5Kg=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Options.ConfigurationExtensions.dll</key>
@@ -185,6 +294,48 @@
 			<key>hash2</key>
 			<data>
 			aq+Sk0P9AkFdbLXZA4FsLxyDGxlL/noVeJh5CT0Pprc=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Resilience.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R1VaLeBWBIl8hJ2SEQUGpRZeXAnzidGFRs3XrW2Cmuk=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.ServiceDiscovery.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a4EboicV+LF0hfqMbd15UZgXBeo7ma9vaJZlx/SaHFw=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.ServiceDiscovery.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y0Iwi3URYE6FwnlIq82nTeHdQPvwvb8xXtbl5exKIrA=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Telemetry.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KZBUBsoYyozOMdYPMtgTTb2t96gj53klQQsxx4yW8tE=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Telemetry.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xOUX/xy+xAPIv1fAUTmcNxh14YDMQ8SE0S9of/CsgCQ=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.IO.RecyclableMemoryStream.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ryT6NCt/nwhifrGy+UEPL2SXCx4TXF/kg3h4+Ks+y2g=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.MacCatalyst.dll</key>
@@ -219,21 +370,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PBtJ767mmqZnVPZAb3NdwHq7Mz1VvCLTu9WDoXFrOPM=
+			Y2oF7R7n9J5jEaYDkv4KnT0i64t1mQPQm/qukDQC4Bg=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Graphics.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GF5UGA77iSZNamuzIBIj++Wqu1m3FrIWxvYJzkIXqWw=
+			QJLgreSyM5qtEDVrWXW9uzUGVZpwU78DK+2lTPOQ1Cc=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OaRtj9OXkrwrEjJQ5wfbYZztDjIM3XsedhJC3tHqtnM=
+			RQHGv+qFoF2QF+2gfJnLvBmuGGCxRGMHERaYssu1LHY=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.VisualBasic.Core.dll</key>
@@ -262,6 +413,76 @@
 			<key>hash2</key>
 			<data>
 			qTqYRQM/AsN6MFuU6FTPkoGk+1BpDlJjTg+yGnCYxLs=
+			</data>
+		</dict>
+		<key>MonoBundle/OpenTelemetry.Api.ProviderBuilderExtensions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cmsdP5b0hslba497wHONLQekRrwdXg2Ik7jLHKw2gWw=
+			</data>
+		</dict>
+		<key>MonoBundle/OpenTelemetry.Api.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NcP6JBqJrZ3h8VrdhQPsuGmE4Ii3POaGe8Cz3QwS6qs=
+			</data>
+		</dict>
+		<key>MonoBundle/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hhZN4EIrOl7oQXcljGmC4klQMr/YyaXTVcmhy/bRkyQ=
+			</data>
+		</dict>
+		<key>MonoBundle/OpenTelemetry.Extensions.Hosting.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+/syWZybDIw0J+qjYSqRUfr+icI+rja9uzwqy1lBjA4=
+			</data>
+		</dict>
+		<key>MonoBundle/OpenTelemetry.Instrumentation.Http.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G4XQ01qkfe/m+lAaXWVp6l32rsUEAC9x2cOmUiRCN+8=
+			</data>
+		</dict>
+		<key>MonoBundle/OpenTelemetry.Instrumentation.Runtime.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hyzuTTusuM1gKttosFIrpBH6JRiWeI7xCR16n6f0SlY=
+			</data>
+		</dict>
+		<key>MonoBundle/OpenTelemetry.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8Hrns33VU13KeKhUBS77PTLierAmbfFZaA9/QiM92+w=
+			</data>
+		</dict>
+		<key>MonoBundle/Polly.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N3YupvzwUVRoWwphZGFwXIN8LwfZjkA33DoOS0wYbqU=
+			</data>
+		</dict>
+		<key>MonoBundle/Polly.Extensions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			itrHogzQVrmoYj77bm+bmaguGNPHt/bHiPf8SyDOXxg=
+			</data>
+		</dict>
+		<key>MonoBundle/Polly.RateLimiting.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r+MELNQGJDiFfUKIBiOEXzJXU3X0YP0awH9wXqAhGAQ=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1251,6 +1472,13 @@
 			0QRAc8zpEtXyeQKjrUXCtB2byKOorj4ujAzvEwWFNew=
 			</data>
 		</dict>
+		<key>MonoBundle/System.Threading.RateLimiting.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lbflkK6DOnhCu4wEUwMmYeQRBngkiw5D0mw5sswAcW0=
+			</data>
+		</dict>
 		<key>MonoBundle/System.Threading.Tasks.Dataflow.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1697,6 +1925,13 @@
 			<key>hash2</key>
 			<data>
 			Twk701A9SjA+XA7IQHhPkd8fUdKsd3o+sOyr7WYSJNg=
+			</data>
+		</dict>
+		<key>Resources/MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
