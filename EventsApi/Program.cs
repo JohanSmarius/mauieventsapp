@@ -10,7 +10,7 @@ builder.AddServiceDefaults();
 builder.Services.AddOpenApi();
 
 // Add EF Core In-Memory database
-builder.AddSqlServerDbContext<EventsDbContext>("EventsDb");
+builder.AddSqlServerDbContext<EventsDbContext>("EventsDbDirectFeed");
 
 builder.Services.AddCors(options =>
 {

@@ -5,7 +5,7 @@ var builder = DistributedApplication.CreateBuilder(args);
 var dbServer = builder.AddSqlServer("dbserver")
     .WithHostPort(5000)
     .WithLifetime(ContainerLifetime.Persistent);
-var db = dbServer.AddDatabase("EventsDb");
+var db = dbServer.AddDatabase("EventsDbDirectFeed");
 
 var eventApi = builder.AddProject("eventsapi", @"../EventsApi/EventsApi.csproj")
     .WithReference(db)
