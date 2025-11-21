@@ -23,7 +23,7 @@ public static class MauiProgram
 		// Configure HttpClient for API communication
 		builder.Services.AddHttpClient<IEventService, EventService>(client =>
 		{
-			client.BaseAddress = new Uri("http://localhost:5144");
+			client.BaseAddress = new Uri("http://localhost:5145");
 		});
 
 		// Register services and ViewModels
